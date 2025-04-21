@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DosisTjek DK - Support & Kontakt</title>
+    <style>
+        /* Simpel Nordisk Styling */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333; /* Mørkegrå tekst */
+            background-color: #f8f9fa; /* Lys grålig baggrund */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff; /* Hvid container */
+            padding: 35px 45px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); /* Blød skygge */
+            max-width: 550px;
+            width: 100%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        img.app-icon {
+            max-width: 90px; /* Juster ikonstørrelse */
+            height: auto;
+            margin-bottom: 25px;
+            border-radius: 18px; /* Matcher typisk app ikon runding */
+        }
+        h1 {
+            color: #212529; /* Lidt mørkere overskrift */
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-weight: 500; /* Lidt lettere fontvægt */
+            font-size: 1.8em;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #495057; /* Lidt lysere brødtekst */
+            font-size: 1em;
+        }
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid #e9ecef; /* Fin separator linje */
+        }
+         .contact-info p {
+             margin-bottom: 10px;
+             color: #333; /* Standard tekstfarve for kontaktinfo */
+             font-size: 0.95em;
+         }
+        a {
+            color: #0056b3; /* Lidt mørkere blå til links */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        address {
+             font-style: normal; /* Undgå browserens standard kursiv */
+             margin-top: 10px;
+        }
+        /* Responsiv justering for mindre skærme */
+         @media (max-width: 480px) {
+             body {
+                 padding: 10px;
+             }
+             .container {
+                 padding: 25px 20px;
+             }
+             h1 {
+                  font-size: 1.6em;
+             }
+            img.app-icon {
+                 max-width: 80px;
+                 margin-bottom: 20px;
+             }
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="app-icon.jpg" alt="DosisTjek DK App Ikon" class="app-icon">
+
+        <h1>DosisTjek DK</h1>
+
+        <p>Support og kontaktinformation for DosisTjek DK appen.</p>
+        <p>Et støtteværktøj til sundhedsprofessionelle til verifikation af egne dosisberegninger.</p>
+
+        <div class="contact-info">
+            <p><strong>Udvikler & Support:</strong></p>
+            <address>
+                Michael Skov Hejmadi<br>
+                Torvegade 10B, 7.<br>
+                5000 Odense C<br>
+                Danmark<br>
+                Telefon: <a href="tel:+4528968889">+45 28 96 88 89</a><br>
+                Email: <a href="mailto:michael@hejmadi.com">michael@hejmadi.com</a>
+            </address>
+             <p style="margin-top: 20px; font-size: 0.9em; color: #6c757d;">
+                 For support, kontakt venligst via email.
+             </p>
+        </div>
+
+    </div>
+</body>
+</html>
